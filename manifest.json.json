@@ -1,0 +1,9 @@
+{
+  "name": "Můj AI terapeut",
+  "description": "Pomáhá lidem zvládat emoce pomocí praktických, laskavých a psychologicky podložených odpovědí. Vhodný pro každodenní sebereflexi a podporu.",
+  "instructions_file": "instructions.md",
+  "version": "1.0.0",
+  "tools": [],
+  "categories": ["psychologie", "emoce", "AI", "self-care"],
+  "language": "cs"
+}
