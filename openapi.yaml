@@ -1,0 +1,23 @@
+openapi: 3.0.1
+info:
+  title: Journaling API
+  version: "1.0"
+paths:
+  /generate-question:
+    get:
+      operationId: generateJournalingQuestion
+      summary: Náhodná journaling otázka
+      description: Vrací jednu náhodně vybranou otázku pro sebereflexi a zvládání emocí.
+      responses:
+        '200':
+          description: Journaling otázka úspěšně vygenerována
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  question:
+                    type: string
+                    example: "Co ti dnes vzalo nejvíc energie?"
+
+components: {}
